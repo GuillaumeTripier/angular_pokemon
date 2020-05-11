@@ -1,4 +1,8 @@
+import { Pokedex, Pokemons } from "./pokedex";
+import Battle from "./battle";
 import Pokemon from "./pokemon";
 
-var pikachu = new Pokemon("Pikachu", 2, 2);
-console.log(pikachu.name);
+var pikachu: Pokemon = Pokedex.generate(Pokemons.Pikachu);
+var bulbizarre: Pokemon = Pokedex.generate(Pokemons.Bulbizarre);
+var battle: Battle = new Battle(pikachu, bulbizarre);
+battle.start();
