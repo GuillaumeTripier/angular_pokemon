@@ -1,10 +1,4 @@
-class Pokemon {
-    _name;
-    get name() { return this._name };
-    constructor(name){
-        this._name = name;
-    }
-}
+import Pokemon from "./pokemon";
 
-var pikachu = new Pokemon("Pikachu");
+var pikachu = new Pokemon("Pikachu", 2);
 console.log(pikachu.name);
