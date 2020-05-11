@@ -7,6 +7,11 @@ class Battle{
         }
         return pokemon2;
     }
+
+    static proceedAttack(attacker: Pokemon, defender: Pokemon): Pokemon{
+        defender.damages = attacker.attackDamages;
+        return defender;
+    }
 }
 
 export default Battle;
