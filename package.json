@@ -4,7 +4,8 @@
   "description": "exercice",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "build": "tsc",
+    "start": "node .\\src\\index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/GuillaumeTripier/angular_pokemon/issues"
   },
-  "homepage": "https://github.com/GuillaumeTripier/angular_pokemon#readme"
+  "homepage": "https://github.com/GuillaumeTripier/angular_pokemon#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
 }
