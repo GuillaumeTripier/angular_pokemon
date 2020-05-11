@@ -1,0 +1,26 @@
+{
+  "name": "angular_pokemon",
+  "version": "1.0.0",
+  "description": "exercice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeTripier/angular_pokemon.git"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "exo"
+  ],
+  "author": "Guillaume Tripier",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/GuillaumeTripier/angular_pokemon/issues"
+  },
+  "homepage": "https://github.com/GuillaumeTripier/angular_pokemon#readme"
+}
